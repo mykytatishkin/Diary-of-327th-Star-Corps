@@ -37,6 +37,25 @@ section {
   transition: width var(--transition);
 }
 
+.card1 {
+    position: relative;
+    width: var(--card-width);
+    min-height: 300px;
+    padding: var(--space);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: right;
+      background: url("https://i.pinimg.com/originals/5d/4a/c4/5d4ac4b1feb7ee8d7ea412f759eaa582.jpg")
+      0 / cover no-repeat;
+    transition: width var(--transition);
+  }
+
 .card p {
   user-select: none;
 }
