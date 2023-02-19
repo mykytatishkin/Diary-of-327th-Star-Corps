@@ -57,7 +57,7 @@ section {
   text-align: left;
   font-size: 1.2rem;
   clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
-  background-color: rgba(214, 47, 41, 0.845);
+  background-color: rgba(237, 179, 19, 0.811);
   transition: clip-path var(--transition);
 }
 
